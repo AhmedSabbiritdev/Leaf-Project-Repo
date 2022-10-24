@@ -1,0 +1,289 @@
+/* font-family: 'Titillium Web', sans-serif; */
+
+/* Area of custom Fonts */
+@font-face {
+    font-family: header-font;
+    src: url(font/orange-juice-2.0.ttf);
+
+}
+
+
+.my-blog {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 99px;
+    font-family: header-font;
+    color: #111413;
+    cursor: pointer;
+}
+.my-blog p {
+    font-family: raleway;
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-top: 16px;
+}
+.my-blog p span {
+    color: #fff;
+    margin-left: 10px;
+}
+.my-blog p span:hover {
+    color: #fff;
+    margin-left: 5px;
+}
+.black-plait {
+    width: 92px;
+    height: 29px;
+    background-color: black;
+    margin-left: 616px;
+    margin-top: -42px;
+}
+.print-ki img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+.img-1 {
+    width: 100%;
+    height: 501px;
+}
+img.img-2 {
+    width: 100%;
+    height: 271px;
+}
+.img-3 {
+    width: 100%;
+    height: 346px;
+}
+.leaves {
+    background-color: black;
+    padding: 3px 7px 3px 7px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.print-ki-02 img {
+    width: 100%;
+}
+.bg-plate {
+    background: #bfbfbf;
+    width: 100%;
+    height: 50px;
+}
+.bg-plate h2 {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.bg-plate img {
+    width: 78px;
+    height: auto;
+    margin-top: 23px;
+}
+.flex-text {
+    display: flex;
+    margin-top: -14px;
+}
+.flex-text-02 {
+    margin-top: 33px;
+    margin-left: 20px;
+    line-height: 9px;
+}
+.flex-text-02 h6 {
+    font-size: 23px;
+}
+.flex-text-02 p {
+    font-size: 15px;
+}
+.coco-tv {
+    margin-top: 20px;
+}
+.margin-top-down {
+    margin-top: 26px;
+}
+.bottom-cover {
+    width: 100%;
+    height: 200px;
+    background: #616161;
+}
+.bottom-cover a {
+    border: 1px solid black;
+    padding: 11px;
+    padding-left: 27px;
+    padding-right: 27px;
+    color: #fff;
+    background-color: black;
+    text-decoration: none;
+}
+.btn-02 {
+    padding-top: 39px;
+    margin-left: 33px;
+}
+.bottom-cover a:hover {
+    cursor: pointer;
+    background-color: gray;
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+.Powered-by {
+    margin-top: 74px;
+    color: white;
+}
+.Powered-by span {
+    text-decoration: underline;
+}
+.read-more a {
+    float: left;
+    color: black;
+    border: 1px solid black;
+    padding: 9px 13px 9px 15px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+.read-more a:hover {
+    text-decoration: none;
+    background-color: #6C9701;
+    color: #fff;
+    transform: translateY(-3px);
+}
+.comm-right p {
+    float: right;
+    font-weight: 500;
+    padding-top: 14px;
+}
+.comm-right span {
+    background: black;
+    padding: 0px 5px 2px 5px;
+    color: white;
+    font-weight: 500;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+.comm-right span:hover {
+    background: #6C9701;
+    padding: 0px 5px 2px 5px;
+    color: white;
+}
+span.sbrc {
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 3px;
+    transition: 0.3s ease;
+    text-decoration: none !important;
+}
+span.sbrc:hover {
+    color: rgb(228, 9, 228);
+}
+.title-heading {
+    margin: 13px 0 0 0;
+    font-family: 'Titillium Web';
+    font-weight: 100;
+    font-size: 38px;
+}
+.nature-lover-call {
+    margin: 13px 0 0 0;
+}
+.my-name-in-leaf {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    margin: 7px 0 11px 0;
+}
+.just-me {
+    font-family: 'Titillium Web';
+    line-height: 15px;
+}
+p.mauris {
+    font-family: 'Titillium Web';
+    line-height: 17px;
+    text-align: justify;
+}
+h6.article-of-populer-posts-childs {
+    font-family: 'Titillium Web';
+    font-weight: 300;
+    margin-top: -14px;
+}
+.sed-mattis {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    line-height: 13px;
+    position: absolute;
+    margin: -4px 0 0 0;
+}
+
+/* This area only for Responsive */
+
+@media screen and (max-width: 360px) {
+    .my-blog p {
+        font-size: 13px !important;
+    }
+    .comm-right p {
+        float: none !important;
+        font-weight: 500;
+        padding-top: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 390px) {
+    .my-blog {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 89px;
+        /* margin-top: 63px; */
+        font-family: header-font;
+        color: #111413;
+        cursor: pointer;
+    }
+    .col-md-6.comm-right {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .bg-plate {
+        background: none;
+        width: 100%;
+        height: auto !important;
+    }
+    .comm-right p {
+        /* float: right; */
+        font-weight: 500;
+        padding-top: 14px;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .bg-plate {
+        background: none;
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bg-plate {
+        background: none;
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .flex-text-02 h6 {
+        font-size: 13px;
+    }
+    .flex-text-02 p {
+        font-size: 11px;
+    }
+}
+
+
+
